@@ -39,6 +39,10 @@ gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
 # Para tradução para portugues	
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+# GEM para paginas estaticas
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
